@@ -13,8 +13,8 @@ HA_URL_PATH = "/api/services/homeassistant/turn_" + action
 url = config.HA_BASE_URL + HA_URL_PATH
 
 # Create some payloads
-on_payload = '{"entity_id": "group.living_room_lights", "transition": 1.5, "brightness_pct": ' + brightness_percentage + '}'
-off_payload = '{"entity_id": "group.living_room_lights", "transition": 1.5}'
+on_payload = '{"entity_id": "' + config.HA_LIGHTS_GROUP + '", "transition": 1.5, "brightness_pct": ' + brightness_percentage + '}'
+off_payload = '{"entity_id": "' + config.HA_LIGHTS_GROUP + '", "transition": 1.5}'
 
 # Choose which payload to use
 if action == 'on':
