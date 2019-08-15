@@ -22,4 +22,8 @@ P => 100% brightness
 ## Installation/Usage
 - Double click on the AutoHotKey script to begin detecting for keystrokes (useful to configure it to start on boot as well)
 - Bind your remote buttons in Flirc to the keystrokes listed above
-- Duplicate `config.py.sample` to `config.py` and fill in the values for your Home Assistant's URL (ex: http://localhost:8123) and Bearer Token value (you can get that from within the Home Assistant UI)
+- Duplicate `config.py.sample` to `config.py`
+- Fill in the values
+  - Home Assistant's URL (ex: http://localhost:8123)
+  - Light entity name
+  - Bearer Token value
