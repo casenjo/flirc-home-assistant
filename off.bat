@@ -1,1 +1,1 @@
-python lighting.py off 100
+start /MIN python lighting.py off 100
