@@ -1,5 +1,5 @@
 # Flirc Home Assistant
-This is a small little set of scripts that can be used with Flirc to control your Home Assistant's lighting (and other things, in the future). Mainly running it on Windows, but it could easily be adapted into an OSX or Linux solution.
+This is a small set of scripts that can be used with Flirc to control your Home Assistant's lighting (and other things, in the future). Mainly running it on Windows, but it could easily be adapted into an OSX or Linux solution.
 
 ### The flow is as follows:
 - Flirc toggles a keyboard shortcut when a particular remote button signal is sensed
